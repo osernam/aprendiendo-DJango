@@ -3,8 +3,11 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
+
 def index(request):
     return render(request, 'planta/index.html')
+
+""" 
 
 def saludar(request):
     return HttpResponse("Hola <strong>mundo</strong>!<br/><a href='/planta/comprar/'>Comprar</a>")
@@ -40,6 +43,9 @@ def calc(request):
     num2 = request.POST["num2"]
     
     r = int(num1) + int(num2)
-    return HttpResponse(f"La suma de:  {num1} + {num2} = <strong style='color:red;'>{r}</strong>")
+    return HttpResponse(f"La suma de:  {num1} + {num2} = <strong style='color:red;'>{r}</strong>") """
     
+
+
+
     

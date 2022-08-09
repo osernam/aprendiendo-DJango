@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/noche/Documentos/django/ambienteVirtual"
+$VIRTUAL_ENV = r"/home/noche/Documentos/DjandoOrleyy/aprendiendo-DJango/ambienteVirtual"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
